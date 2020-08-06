@@ -63,8 +63,6 @@ body {
 
 /*          start style here          */
 
-
-
 body{
 	width:100vw;
 
@@ -112,6 +110,7 @@ body{
 	padding: 3%;
 }
 
+
 #header-text{
 	display:inline-block;
 	margin-top:0px;
@@ -147,6 +146,7 @@ footer{
 }
 
 /* images & icons */
+
 
 #header-img{
 	display:inline-block;
@@ -196,4 +196,22 @@ p{
 span{
 	font-weight: 900;
 	/* color:red; */
+}
+
+/* annimations */
+
+
+#header-img-text:hover #header-img{
+	box-shadow:4px 4px 18px red;
+	border-radius:50%;
+}
+
+#header-img-text:hover #header-text{
+	background:url("assets/header_img.jpg") no-repeat;
+	background-position: left top;
+	border-radius: 5px;
+
+	/* min-width:100vw;
+	margin:0;
+	text-align:center; */
 }
